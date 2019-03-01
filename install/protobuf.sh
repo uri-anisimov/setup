@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd ~/Downloads/protobuf \
+cd ~/Downloads \
+&& git clone https://github.com/protocolbuffers/protobuf.git \
+&& cd protobuf \
 && ./autogen.sh \
 && ./configure --prefix=/usr \
 && make -j$(nproc) \
