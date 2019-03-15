@@ -47,11 +47,11 @@ sudo apt-get update \
  libgtk2.0-dev \
  libpthread-stubs0-dev \
  libraw1394-11 \
- libavcodec57 \
- libavformat57 \
- libswscale4 \
- libswresample2 \
- libavutil55 \
+ libavcodec*dev \
+ libavformat*dev \
+ libswscale*dev \
+ libswresample*dev \
+ libavutil*dev \
  libgtkmm-2.4-1v5 \
  libglademm-2.4-1v5 \
  libgtkglextmm-x11-1.2-0v5 \
@@ -68,4 +68,4 @@ sudo apt-get update \
 && sudo ldconfig \
 && sudo apt-get autoclean \
 && sudo apt-get -y autoremove \
-&& sudo poweroff
+&& sudo ldconfig
