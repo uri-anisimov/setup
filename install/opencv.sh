@@ -1,9 +1,10 @@
 #!/bin/bash
 
 cd ~/Downloads \
+&& rm -rf opencv* \
 && git clone https://github.com/opencv/opencv.git \
 && git clone https://github.com/opencv/opencv_contrib.git \
-cd ~/Downloads/opencv \
+&& cd ~/Downloads/opencv \
 && git checkout 3.4.0 \
 && cd ~/Downloads/opencv_contrib \
 && git checkout 3.4.0 \
