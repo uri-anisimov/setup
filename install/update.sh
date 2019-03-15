@@ -68,4 +68,4 @@ sudo apt-get update \
 && sudo ldconfig \
 && sudo apt-get autoclean \
 && sudo apt-get -y autoremove \
-&& sudo poweroff
+&& sudo ldconfig
