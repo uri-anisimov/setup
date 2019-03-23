@@ -8,4 +8,3 @@ sudo pip install --upgrade robotframework
 python --version
 pip --version
 robot --version
-robot --version
