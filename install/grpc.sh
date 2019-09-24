@@ -15,4 +15,3 @@ cd ~/Downloads \
 && make -j$(nproc) \
 && sudo make install \
 && sudo ldconfig
-
